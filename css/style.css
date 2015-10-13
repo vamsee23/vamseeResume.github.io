@@ -1,0 +1,150 @@
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+#header {
+    background-color: #FFBD33;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+
+#name{
+	
+	    font-size: 2.5em;
+    font-weight: 600;
+    
+	}
+	
+	h1 {
+    font-size: 40px;
+    /*color: #1565C0;*/
+    color: #AB3C5C;
+    line-height: 48px;
+    display: inline;
+    
+   
+}
+
+#role {
+    color: #263238;
+    font-size:18px;
+}
+
+span {
+    margin: 5px;
+}
+
+/*
+  ========================================
+  Contacts
+  ========================================
+*/
+
+
+.contact-inline {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    font-size:25px;
+}
+.contact-inline ul,li{
+	text-decoration:none;
+	list-style-type: none;
+	}
+	
+	.desc-inline li{
+		list-style-type: square;
+	}
+	
+	.blue-details{
+	color: #1565C0;
+	}
+	
+	.ash-details{
+	color: #263238;
+	}
+	
+
+/*
+  ========================================
+  Experience Section
+  ========================================
+*/
+h2{
+	color: #AB3C5C;
+	}
+a.no-click {
+    pointer-events: none;
+    cursor: default;
+}
+a {
+    font-size: 1.5em;
+}
+a {
+	color: #1565C0;
+    /*color: #AB3C5C;*/
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+}
+
+.date-text{
+	    font-style: italic;
+    font-size: 14px;
+    color: #999999;
+    line-height: 16px;
+    float: left;
+    font-size:16px;
+	}
+	
+	.location-text {
+    font-style: italic;
+    font-size: 14px;
+    color: #999999;
+    line-height: 16px;
+    float: right;
+}
+
+.mastersyear-text{
+	
+	float: left;
+	}
+	
+.masters-text{
+	
+	float: right;
+	}
+
+.gray-section {
+    background-color: #F3F3F3;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+/*
+  ========================================
+  Experience Section
+ ========================================
+*/
+ #footer{
+ text-align: center;
+ }
+ 
+ .blue-gray{
+ background-color: #FFBD33;
+ }
+ 
+ .orange {
+    background-color: #AB3C5C;
+    color: white;
+}
+
+
+
